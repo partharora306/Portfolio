@@ -1,5 +1,4 @@
 import dynamic from "next/dynamic";
-const Navigation = dynamic(() => import("../components/Navigation"));
 const Greetings = dynamic(() => import("../containers/Greetings"));
 const Education = dynamic(() => import("../containers/Education"));
 const Experience = dynamic(() => import("../containers/Experience"));
@@ -13,7 +12,6 @@ export default function Home({ githubProfileData }: { githubProfileData: any }) 
   return (
     <div>
       <SEO />
-      <Navigation />
       <Greetings />
       <Education />
       <Experience />

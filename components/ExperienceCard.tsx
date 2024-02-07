@@ -5,7 +5,7 @@ import { ExperienceType } from "../types/sections";
 
 const ExperienceCard = ({ companyLogo, company, role, date, descBullets }: ExperienceType) => {
   return (
-      <Card style={{ flex: 1, height: '37rem' }} className="shadow-lg--hover my-4 shadow border-0 text-center rounded">
+      <Card style={{ flex: 1, minHeight: '38rem' }} className="shadow-lg--hover my-4 shadow border-0 text-center rounded">
         <CardBody>
           <img
             src={companyLogo}

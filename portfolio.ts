@@ -13,7 +13,7 @@ export const greetings: GreetingsType = {
   title: "Hi there, I'm Parth Arora",
   description:
     "Skilled frontend developer with more than two years of expertise in web technologies such as React, Angular, NextJS, JavaScript, TypeScript, and CSS frameworks. Effective in Agile methodology and Scrum frameworks. I stay updated with industry trends to advance in frontend development. Collaborated with cross-functional teams in dynamic environments, resulting in a top-tier customer experience through tech innovations.",
-  resumeLink: "https://drive.google.com/file/d/1kuXIwVzlGgS3_7nrpVTAwYz7Ou56CeXp/view?usp=drive_link",
+  resumeLink: "https://drive.google.com/file/d/1kuXIwVzlGgS3_7nrpVTAwYz7Ou56CeXp/view?usp=sharing",
 };
 
 export const openSource = {
