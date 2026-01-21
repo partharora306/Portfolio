@@ -12,7 +12,7 @@ export const greetings: GreetingsType = {
   name: "Parth Arora",
   title: "Hi there, I'm Parth Arora",
   description:
-    "Skilled frontend developer with more than two years of expertise in web technologies such as React, Angular, NextJS, JavaScript, TypeScript, and CSS frameworks. Effective in Agile methodology and Scrum frameworks. Staying updated with industry trends to advance in frontend development. Collaborated with cross-functional teams in fluid environments, resulting in a top-tier customer experience through tech innovations.",
+    "Frontend Engineer with 4+ years of experience building scalable web applications using React, Angular, Next.js, JavaScript, TypeScript and effectively leveraging AI-assisted tools. Experienced in owning features end-to-end, collaborating with stakeholders & cross-functional teams, and delivering impactful solutions in Agile environments.",
   resumeLink: "https://drive.google.com/file/d/1kuXIwVzlGgS3_7nrpVTAwYz7Ou56CeXp/view?usp=sharing",
 };
 
@@ -41,16 +41,29 @@ export const educationInfo: EducationType[] = [
 
 export const experience: ExperienceType[] = [
   {
+    role: "Software Engineer ||",
+    company: "HashedIn by Deloitte",
+    companyLogo: "/img/icons/common/HashedInLogo.png",
+    date: "April 2024 - present",
+    descBullets: [
+    	"Led frontend implementation of a micro-frontend pricing & promotions platform for enterprise restaurant clients, collaborating with Deloitte US stakeholders and contributing to $10.2M in revenue.",
+    	"Frontend point of contact for a monorepo-based cyber resilience platform, delivering 10+ core modules using React & TypeScript and ensuring on-time feature delivery & deployments.",
+      "Revamped Deloitte’s AI Marketplace UI using React, Next.js and TypeScript, improving design consistency and increasing enterprise adoption by 20%.",
+      "Delivered data-driven UI for a climate tech navigator using Angular & TypeScript with D3.js, ag-Grid & PptxGenJS, enabling faster analysis for 500+ stakeholders via interactive charts, maps and exportable reports.",
+      "Recognized with 3 Spot Awards and 1 Top Impactor Award, for impactful frontend contributions."
+    ],
+  },
+  {
     role: "Software Engineer",
     company: "Navtech",
     companyLogo: "/img/icons/common/navtechLogo.png",
-    date: "Sept 2022 - Present",
+    date: "Sept 2022 - March 2024",
     descBullets: [
-    	"Primarily worked with the US-based client team as a key frontend developer, contributed to its 40% revenue boost.",
-    	"Contributed to the migration of a web app resulting in an improved user experience, having an average 100 new users daily and enhanced by optimising API calls, reducing redundancy by 3x.",
-      "Built an extension in AngularTS, providing mentorship to a junior developer, achieved a 25% increase in users.",
-      "Successfully resolved 85% production UI issues of the web application of a business community by using ReactJS.",
-      "Enhanced an AI-based subscription-driven hiring platform with ReactTS & NextJS, garnering client praise for new features and improved functionalities."
+    	"Primarily worked as a key frontend developer for a US-based tax credit platform, contributing to a 40% revenue boost.",
+    	"Migrated an Angular app from v13 to v18, improving user experience & driving 100+ new users daily, and reduced API usage by 70% through caching.",
+      "Built an extension using Angular & TypeScript, mentoring a developer and achieving 25% increase in users.",
+      "Successfully resolved 85% production UI issues of the web application of a business community by using React.",
+      "Enhanced an AI-based subscription-driven hiring platform using React, Next.js & TypeScript, garnering client praise for new features and improved functionalities."
     ],
   },
   {
@@ -59,23 +72,38 @@ export const experience: ExperienceType[] = [
     companyLogo: "/img/icons/common/highradiusLogo2.png",
     date: "Aug 2021 - June 2022",
     descBullets: [
-    	"Built a hiring platform with frontend team to improve internship program management, benefiting 3,000+ applicants.",
+    	"Developed a hiring platform to streamline internship program management, benefiting 3,000+ applicants annually.",
     	"Led a team of 7 peers to provide workflow and UI/UX design of the product.",
       "Built an app providing analysts a customer list with data-driven call recommendations via grid & graph visualizations.",
-      "Created web interfaces using ReactJS & Material UI, and was awarded as STAR INTERN for my dedication and skills.",
-      "Developed a Fintech B2B full-stack Invoice Management Application using ReactJS, JDBC, Java & Servlets.",
-      "The web app featured CRUD operations impacting MySQL behavior and integrated pagination for easier data access."
+      "Created web interfaces using React & Material UI and was awarded as Star Intern for my dedication and skills.",
+    ],
+  },
+  {
+    role: "Summer Intern",
+    company: "HighRadius",
+    companyLogo: "/img/icons/common/highradiusLogo2.png",
+    date: "June 2021 - July 2022",
+    descBullets: [
+      "Developed a FinTech B2B invoice management system using React, enabling faster invoice tracking and reporting.",
     ],
   },
 ];
 
 export const projects: ProjectType[] = [
   {
+    name: "AI Expense Tracker",
+    tech: 'React, Next.js, Firebase, Tailwind CSS',
+    descBullets: [
+    	"Built a personal finance web app with OCR-based receipt scanning and real time expense tracking.",
+    	"Improved Lighthouse performance score from 68 to 94 by applying code-splitting, caching and image optimization."
+    ],
+  },
+  {
     name: "Mini Market",
     tech: 'React.js, Node.js, Express, MongoDB',
     descBullets: [
-    	"Created a robust online platform for the purchase of everyday essentials and provide fast doorstep delivery.",
-    	"Aimed to collaborate with local suppliers and logistics for improved product availability and streamlined delivery."
+    	"Developed a responsive e-commerce platform for purchasing everyday essentials with fast doorstep delivery.",
+    	"Enhanced UI performance and optimized rendering, reduced page load times by 35%, ensuring a seamless user experience."
     ],
   },
   {
