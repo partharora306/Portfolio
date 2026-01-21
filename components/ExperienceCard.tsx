@@ -3,9 +3,9 @@ import { Card, CardBody, CardTitle, CardSubtitle, CardText, Col } from "reactstr
 import Fade from "react-reveal/Fade";
 import { ExperienceType } from "../types/sections";
 
-const ExperienceCard = ({ companyLogo, company, role, date, descBullets }: ExperienceType) => {
+const ExperienceCard = ({ companyLogo, company, role, date, height, descBullets }: ExperienceType) => {
   return (
-      <Card style={{ flex: 1, minHeight: '38rem' }} className="shadow-lg--hover my-4 shadow border-0 text-center rounded">
+      <Card style={{ flex: 1, minHeight: height }} className="shadow-lg--hover my-4 shadow border-0 text-center rounded">
         <CardBody>
           <img
             src={companyLogo}

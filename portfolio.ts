@@ -12,7 +12,7 @@ export const greetings: GreetingsType = {
   name: "Parth Arora",
   title: "Hi there, I'm Parth Arora",
   description:
-    "Frontend Engineer with 4+ years of experience building scalable web applications using React, Angular, Next.js, JavaScript, TypeScript and effectively leveraging AI-assisted tools. Experienced in owning features end-to-end, collaborating with stakeholders & cross-functional teams, and delivering impactful solutions in Agile environments.",
+    "Frontend Engineer with 4+ years of experience building scalable web applications using React, Angular, Next.js, JavaScript, TypeScript and effectively leveraging AI-assisted tools. Experienced in owning features end-to-end, collaborating with stakeholders & cross-functional teams and delivering impactful solutions in Agile environments.",
   resumeLink: "https://drive.google.com/file/d/1kuXIwVzlGgS3_7nrpVTAwYz7Ou56CeXp/view?usp=sharing",
 };
 
@@ -23,7 +23,7 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  email: "mailto:arora.parth7306@gmail.com",
+  email: "mailto:partharora3776@gmail.com",
   linkedin: "https://www.linkedin.com/in/partharora306/",
   github: "https://github.com/partharora306",
 };
@@ -45,10 +45,11 @@ export const experience: ExperienceType[] = [
     company: "HashedIn by Deloitte",
     companyLogo: "/img/icons/common/HashedInLogo.png",
     date: "April 2024 - present",
+    height: "40rem",
     descBullets: [
     	"Led frontend implementation of a micro-frontend pricing & promotions platform for enterprise restaurant clients, collaborating with Deloitte US stakeholders and contributing to $10.2M in revenue.",
     	"Frontend point of contact for a monorepo-based cyber resilience platform, delivering 10+ core modules using React & TypeScript and ensuring on-time feature delivery & deployments.",
-      "Revamped Deloitte’s AI Marketplace UI using React, Next.js and TypeScript, improving design consistency and increasing enterprise adoption by 20%.",
+      "Revamped Deloitte's AI Marketplace UI using React, Next.js and TypeScript, improving design consistency and increasing enterprise adoption by 20%.",
       "Delivered data-driven UI for a climate tech navigator using Angular & TypeScript with D3.js, ag-Grid & PptxGenJS, enabling faster analysis for 500+ stakeholders via interactive charts, maps and exportable reports.",
       "Recognized with 3 Spot Awards and 1 Top Impactor Award, for impactful frontend contributions."
     ],
@@ -58,6 +59,7 @@ export const experience: ExperienceType[] = [
     company: "Navtech",
     companyLogo: "/img/icons/common/navtechLogo.png",
     date: "Sept 2022 - March 2024",
+    height: "40rem",
     descBullets: [
     	"Primarily worked as a key frontend developer for a US-based tax credit platform, contributing to a 40% revenue boost.",
     	"Migrated an Angular app from v13 to v18, improving user experience & driving 100+ new users daily, and reduced API usage by 70% through caching.",
@@ -71,6 +73,7 @@ export const experience: ExperienceType[] = [
     company: "HighRadius",
     companyLogo: "/img/icons/common/highradiusLogo2.png",
     date: "Aug 2021 - June 2022",
+    height: "30rem",
     descBullets: [
     	"Developed a hiring platform to streamline internship program management, benefiting 3,000+ applicants annually.",
     	"Led a team of 7 peers to provide workflow and UI/UX design of the product.",
@@ -83,6 +86,7 @@ export const experience: ExperienceType[] = [
     company: "HighRadius",
     companyLogo: "/img/icons/common/highradiusLogo2.png",
     date: "June 2021 - July 2022",
+    height: "30rem",
     descBullets: [
       "Developed a FinTech B2B invoice management system using React, enabling faster invoice tracking and reporting.",
     ],

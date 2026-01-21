@@ -40,6 +40,7 @@ export type ExperienceType = {
   company: string;
   companyLogo: string;
   date: string;
+  height: string;
   descBullets?: string[];
 };
 
