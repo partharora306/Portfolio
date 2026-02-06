@@ -2,7 +2,6 @@ import React from "react";
 import { experience } from "../portfolio";
 import { Col, Container, Row } from "reactstrap";
 import ExperienceCard from "../components/ExperienceCard";
-import Fade from "react-reveal/Fade";
 
 const Experience = () => {
   return (

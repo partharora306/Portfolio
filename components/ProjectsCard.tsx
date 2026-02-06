@@ -1,6 +1,5 @@
 import React from "react";
 import { Card, CardBody, Col, Button, CardText } from "reactstrap";
-import Fade from "react-reveal/Fade";
 import { ProjectType } from "../types/sections";
 
 const ProjectsCard = ({ name, descBullets, tech }: ProjectType) => {
