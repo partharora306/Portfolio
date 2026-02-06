@@ -2,12 +2,16 @@ import React from "react";
 import EducationCard from "../components/EducationCard";
 import { educationInfo } from "../portfolio";
 import { Container, Row, Col } from "reactstrap";
-import Fade from "react-reveal/Fade";
+import { motion } from "framer-motion";
 
 const Education = () => {
   return (
     educationInfo && (
-      <Fade bottom duration={1000}>
+      <motion.div
+      initial={{ opacity: 0, y: 40 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 1 }}
+    >
         <section className="section section-lg">
           <Container>
             <div className="d-flex p-4">
@@ -31,7 +35,7 @@ const Education = () => {
             </Row>
           </Container>
         </section>
-      </Fade>
+      </motion.div>
     )
   );
 };
