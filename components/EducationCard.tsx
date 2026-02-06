@@ -11,7 +11,7 @@ const EducationCard = ({ schoolName, subHeader, duration, desc, grade, descBulle
             <h5 className="text-info">{schoolName}</h5>
             <h6>{subHeader}</h6>
             <Badge color="info" className="mr-1">
-              {duration}
+              {duration}pabo
             </Badge>
             {grade && (
               <Badge color="primary" className="mr-1">
